@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- Ensure that everything scales appropriately on a mobile device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  
+  <title>BalderBash</title>
+
+  <link href="index.js" script type="text/javascript">
+
+  <!-- Use victorian-looking font from google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet" type="text/css">
+
+  <link href="Styles/styles.css" rel="stylesheet">
+
+  <!--include socket-->
+  <!-- <script src="/socket.io/socket.io.js"></script> -->
+</head>
+  
+<body>
+
+ <!-- This is where the templates defined below will be used -->
+  <div id="gameArea"></div>
+
+<!-- Main Title Screen that appears when the page loads for the first time -->
+<script id="intro-screen-template" type="text/template">
+
+  <div class="titleWrapper">
+
+      <div class="title">
+          ANAGRAMMATIX
+      </div>
+
+      <div class="buttons">
+
+          <button id="btnCreateGame" class="btn left">CREATE</button>
+          <button id="btnJoinGame" class="btn right">JOIN</button>
+          <div style="clear:both"></div>
+      </div>
+
+  </div>
+
+</script>
+
+
+
+
+
+
+
+
+  <img class="header" src="https://github.com/CoffeeTechie/Balderbash/blob/master/Styles/balderbashLogo.png?raw=true">
+  
+  <!--rules link-->
+  <a class="link" href='https://howdoyouplayit.com/balderdash-rules-play-balderdash/' target="_blank">Rules</a>
+
+ <!--Play command-->
+ <button class=Victorian id="btnCreateGame">Play</button>
+
+</body>
+
+</html>
+

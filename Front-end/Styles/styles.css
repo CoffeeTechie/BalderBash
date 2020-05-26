@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Victorian";
+    src: url("../CSS/Fonts/VictorianParlor.ttf");
+  }
+
+.link {
+    font-family: "Victorian";
+    text-decoration: none;
+
+}
+
+
+.header {
+    width: 50%;
+    align-content: center;
+}
+
+* Scorecard element */
+/* Tracks everybody's scores after the round */
+
+/* Word card */
+/* Shows the current to all players */
+
+/* Answer entry field */
+/* Rendering of an input field where non-thrower players enter their answer */
+
+/* Thrower-view */
+/* Shows the thrower all player's responses */

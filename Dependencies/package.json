@@ -1,0 +1,31 @@
+{
+  "name": "balderbash",
+  "version": "1.0.0",
+  "description": "Online real-time balderdash server",
+  "entry point": "(index.js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoffeeTechie/Balderbash.git"
+  },
+  "author": "Mel Baril",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoffeeTechie/Balderbash/issues"
+  },
+  "homepage": "https://github.com/CoffeeTechie/Balderbash/blob/master/index.html",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0"
+  }
+}
